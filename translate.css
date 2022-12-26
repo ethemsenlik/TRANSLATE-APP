@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Roboto&family=Roboto+Serif:ital,opsz,wght@1,8..144,100;1,8..144,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #999999;
+}
+
+.container {
+    width: 550px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.box {
+    padding: 15px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.text-controls {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.text-controls textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 15px;
+    font-size: 18px;
+}
+
+#from-text {
+    height: 100px;
+    border-right: 1px solid black;
+}
+
+#to-text {
+    height: 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+#btnTranslate {
+    padding: 5px 13px;
+    border-radius: 3px;
+    border: none;
+    background-color: #999999;
+    transition-duration: .4s;
+}
+
+#btnTranslate:hover {
+    background-color: black;
+    color: #999999;
+}
